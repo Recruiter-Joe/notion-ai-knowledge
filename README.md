@@ -1,6 +1,6 @@
 # Notion AI Knowledge Bot 🤖
 
-This project integrates Notion, OpenAI's GPT-4, and Slack to create a real-time, context-aware knowledge bot. Users can ask questions in Slack, and the bot will provide answers based on the content stored in a Notion page.
+This project has been forked from @hollaugo and it integrates Notion, OpenAI's GPT-4, and Slack to create a real-time, context-aware knowledge bot. Users can ask questions in Slack, and the bot will provide answers based on the content stored in a Notion page.
 
 ## Getting Started 🚀
 
@@ -27,7 +27,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/hollaugo/notion-ai-knowledge-.git
+    git clone https://github.com/recruiter-joe/notion-ai-knowledge-.git 
     ```
 
 2. Navigate to the project directory:
