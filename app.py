@@ -115,7 +115,7 @@ def query_openai_with_documents(documents, user_query):
     # Create the system message with the context
     system_message = {
         "role": "system",
-        "content": f"You are a helpful assistant who will answer questions based on a document containing information about a course. It includes video narrations and explanations of concepts and code snippets. Use Slack markdown to return information especially around headings, code blocks, bullet points as well as using bold and italics where necessary, add emojis where necessary. You will use the context provided below from this document to answer accurate questions. In scenarios where code is not clean for code snippet, format accordingly\n\nContext \n{context}\n\nResponse\n"
+        "content": f"You are a helpful assistant who will answer questions based on a document containing information about a companies knowledgebase. It includes internal systems, best practices and explanations of concepts and code snippets. Use Slack markdown to return information especially around headings, code blocks, bullet points as well as using bold and italics where necessary, add emojis where necessary. You will use the context provided below from this document to answer accurate questions. In scenarios where code is not clean for code snippet, format accordingly\n\nContext \n{context}\n\nResponse\n"
     }
     
     # Create the user message
